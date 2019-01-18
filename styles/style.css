@@ -1,0 +1,123 @@
+header {
+
+}
+
+.headerNav {
+
+}
+
+.iconBar  {
+  width: 90px;
+  background-color: #D5D9ED;
+  position: fixed;
+  top: 35%;
+}
+
+.iconBar a:hover {
+  background-color: black;
+}
+
+.iconBar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.mainNav ul {
+  list-style: none;
+  padding-right: 30px;
+}
+
+.mainNav {
+  position: fixed;
+  text-align:right;
+  width: 100%;
+  height: auto;
+  float: right;
+  /* text-align: left; */
+  font-size: 20px;
+  overflow: hidden;
+  /* background-color: #272C33; */
+  /* width: 100%; */
+}
+
+.mainNav a:hover {
+
+}
+.mainNav a {
+  transition: all .2s ease-in-out;
+
+  /*float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;*/
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  color: white;
+  font-family: 'Blast'; font-size: 30px;
+
+}
+
+.bio {
+  width: 40%;
+  float:left;
+  overflow: hidden;
+  margin-top: 200px;
+  line-height: 1.6;
+}
+
+.picture img {
+  width: 400px;
+  border-radius: 10px;
+  border: 25px solid black;
+}
+
+.picture {
+  right: 10px;
+  float:right;
+  width: 50%;
+  margin-top: 100px;
+
+}
+
+h1 {
+
+}
+
+p {
+  color: #D5D9ED;
+}
+
+a {
+  color: #D5D9ED;
+  text-decoration: none;
+}
+
+#container{
+  width:1000px;
+  margin:0 auto;
+  position:relative;
+}
+
+#siteFooter {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
