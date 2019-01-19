@@ -1,10 +1,3 @@
-header {
-
-}
-
-.headerNav {
-
-}
 
 .iconBar  {
   width: 90px;
@@ -14,7 +7,7 @@ header {
 }
 
 .iconBar a:hover {
-  background-color: black;
+  background-color: #00FF33;;
 }
 
 .iconBar a {
@@ -50,7 +43,7 @@ li {
 }
 
 .mainNav a:hover {
-
+  color: #00FF33;
 }
 .mainNav a {
   transition: all .2s ease-in-out;
@@ -64,10 +57,11 @@ li {
 }
 
 body {
+  height: 100%;
   margin: 0;
   background-color: #222;
   color: white;
-  font-family: 'Blast'; font-size: 30px;
+  font-family: 'Source Code Pro', monospace; font-size: 30px;
 
 }
 
@@ -79,18 +73,23 @@ body {
   line-height: 1.6;
 }
 
-.picture img {
+.bio h1 {
+  color: #00FF33;
+}
+
+.headshot img {
   width: 400px;
-  border-radius: 10px;
+  border-radius: 50px;
   border: 25px solid black;
 }
 
-.picture {
+.headshot {
   right: 10px;
   float:right;
   width: 50%;
-  margin-top: 100px;
-
+  margin-top: 150px;
+  /* z-index: -1; */
+  /* position: relative; */
 }
 
 h1 {
@@ -106,18 +105,48 @@ a {
   text-decoration: none;
 }
 
-#container{
+#containerOne{
   width:1000px;
   margin:0 auto;
   position:relative;
+  background-color: #222;
+}
+
+section #containerTwo {
+
+}
+
+#containerTwo {
+  width: 100%;
+  height: inherit;
+  /* width:1000px; */
+  margin:0 auto;
+  position:relative;
+  /* background-color: white; */
+}
+#containerTwo img {
+  width: 550px;
+}
+
+.blocJamsExplanation {
+  float: right;
 }
 
 #siteFooter {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: black;
   height: 100px;
   width: 100%;
   font-size: 20px;
   text-align: center;
+}
+
+.projects {
+/*  background-color: white;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;*/
 }
