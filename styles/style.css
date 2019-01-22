@@ -1,13 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+section {
+  width: 100%;
+  height: 1000px;
+  float: left;
+}
+
+
+#pageOne {
+  background-color: #272C33;
+
+}
+
+#pageTwo {
+  background-color: #e5e5e5;
+}
+
+#pageThree {
+  background-color: #e5e5e5;
+}
+
+#pageFour {
+  background-color: #e5e5e5;
+}
+
+#pageOne ul li a:hover {
+  color: #08fdd8;
+}
+
+#pageOne nav ul li a {
+  font-size: 20px;
+  color: white;
+  line-height: 100px;
+}
+
+.navigation img {
+  width: 300px;
+  position: fixed;
+  /* margin: auto; */
+  margin-top: -90px;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 1
+  top: 100px;
+  background-color: #272C33;
+}
+
+nav img {
+  height: 200px;
+  float: left;
+  vertical-align: middle;
+}
+
+nav a {
+
+}
+ nav a:hover {
+   color: #08fdd8;
+ }
+
+ul {
+  width: fit-content;
+  /* margin: auto; */
+  list-style: none;
+  float: right;
+  display: inline;
+}
+
+ul li {
+  float: left;
+  margin-right: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+  color: white;
+}
 
 .iconBar  {
   width: 90px;
-  background-color: #D5D9ED;
+  background-color: #C0C0C0;
   position: fixed;
   top: 35%;
 }
 
 .iconBar a:hover {
-  background-color: #00FF33;;
+  background-color: #08fdd8;
 }
 
 .iconBar a {
@@ -19,7 +111,81 @@
   font-size: 36px;
 }
 
-li {
+#piss{
+  width:800px;
+  margin:0 auto;
+  position:relative;
+}
+
+.headshot {
+  width: 200px;
+  height: 200px;
+padding:50px;
+}
+
+
+.bio {
+  /* width: 70%; */
+  width:800px;
+margin-bottom:100px;
+}
+
+.bio p {
+  font-size: 25px;
+  color: #08fdd8;
+  text-align: center;
+}
+
+.blocJams img {
+  width: 500px;
+  height: auto;
+  float: left;
+  margin-left: 170px;
+  margin-top: 25px;
+}
+
+.blocJamsExplanation {
+  width: 40%;
+  float: right;
+  margin-right: 60px;
+  margin-top: 80px;
+}
+
+.blocJamsExplanation p {
+  font-size: 20px;
+  color: #383838;
+}
+
+.blocJamsExplanation h2 {
+  font-size: 30px;
+  color: #383838;
+}
+
+.box {
+  width: 550px;
+  height: 350px;
+  background: #C0C0C0;
+  margin-left: 145px;
+  margin-top: -5px;
+  border-radius: 5px;
+}
+
+.iconGroup {
+
+}
+
+footer #siteFooter {
+  background-color: #272C33;
+  line-height:100px;
+
+}
+
+#siteFooter p {
+  color: white;
+  text-align: center;
+}
+
+/*li {
   display: inline;
   margin-right: 40px;
 }
@@ -35,12 +201,12 @@ li {
   width: 100%;
   height: auto;
   float: right;
-  /* text-align: left; */
+  /* text-align: left; *
   font-size: 20px;
   overflow: hidden;
   /* background-color: #272C33; */
   /* width: 100%; */
-}
+/*}
 
 .mainNav a:hover {
   color: #00FF33;
@@ -54,7 +220,7 @@ li {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;*/
-}
+/*}
 
 body {
   height: 100%;
@@ -90,11 +256,8 @@ body {
   margin-top: 150px;
   /* z-index: -1; */
   /* position: relative; */
-}
+/*}
 
-h1 {
-
-}
 
 p {
   color: #D5D9ED;
@@ -106,30 +269,33 @@ a {
 }
 
 #containerOne{
+  height: auto;
   width:1000px;
   margin:0 auto;
   position:relative;
   background-color: #222;
-}
-
-section #containerTwo {
 
 }
 
 #containerTwo {
-  width: 100%;
-  height: inherit;
-  /* width:1000px; */
+  width: 1000px;
+  height: auto;
   margin:0 auto;
   position:relative;
   /* background-color: white; */
-}
+/*}
 #containerTwo img {
   width: 550px;
 }
 
+.projects {
+  width: 50%;
+}
+
 .blocJamsExplanation {
+  width: 50%;
   float: right;
+  margin-top: 250px;
 }
 
 #siteFooter {
@@ -140,13 +306,5 @@ section #containerTwo {
   width: 100%;
   font-size: 20px;
   text-align: center;
-}
 
-.projects {
-/*  background-color: white;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;*/
 }
