@@ -2,9 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
     <title>Colson Crim | Web Developer</title>
 
   </head>
@@ -23,80 +25,71 @@
       </nav>
     </div>
 
+        <canvas></canvas>
           <h1>Colson Crim</h1>
         <div id="containerOne">
         <div class="bio">
           <p>
             <img class="headshot" id="photo" src="images/headshot.png" />
             <br />
-            I'm a front end web developer based in Bellingham, Wa. I enjoy building websites, responsive web applications, and mobile apps using HTML, CSS, Javascript, React, and jQuery. Take a look around at some of my most recent work.
+            I'm a front end web developer based in Bellingham, Wa. I enjoy building websites, responsive web applications, and mobile apps using HTML, CSS, Javascript, React, and jQuery.
             <p/>
         </div>
       </div>
+
     </section>
 
 
     <section id="pageTwo">
         <h1>Projects<h1>
 
-        <!-- <div id="containerTwo"> -->
+         <div id="containerTwo">
 
-          <div class="projects-section">
-            <ul class="projects-grid">
-              <li>
-                <div class="projects-box projects-img-1">
-                  <a href="#">
-                    <h3>Bloc Jams</h3>
-                    <p>Bloc Jams is a single page application music player built with React.</p>
-                  </a>
-              </li>
-              <li>
-                <div class="projects-box projects-img-2">
-                  <a href="#">
-                    <h3>Bloc Chat</h3>
-                    <p>Bloc Chat is a messaging app built with React and Firebase database.</p>
-                  </a>
-              </li>
-              <li>
-                <div class="projects-box projects-img-3">
-                  <a href="#">
-                    <h3>Built For Living</h3>
-                    <p>A real estate development website built with Bootstrap, HTML, CSS, and jQuery</p>
-                  </a>
-              </li>
-              <li>
-                <div class="projects-box projects-img-4">
-                  <a href="#">
-                    <h3>This Website!</h3>
-                    <p>I built this portfolio website from the ground up using HTML, CSS, and jQuery.</p>
-                  </a>
-              </li>
-            </ul>
-          </div>
+           <div class="row">
+             <div class="columnOne">
+               <h3>Bloc Jams</h3>
+               <a href="#"><img src="images/Bloc Jams Placeholder .png"></a>
+               <p>Bloc Jams is a single page application music player built with React</p>
+               <h5>Tools Used</h5>
+               <ul>
+                 <li><i class="fab fa-html5"></i></li>
+                 <li><i class="fab fa-css3-alt"></i></li>
+                 <li><i class="fab fa-react"></i></li>
+                 <li><i class="fab fa-npm"></i></li>
+                 <li><i class="fab fa-git"></i></li>
+                 <li><i class="fab fa-github"></i></li>
+               </ul>
+             </div>
+             <div class="columnTwo">
+               <h3>Bloc Chat</h3>
+               <a href="#"><img src="images/Bloc Chat Placeholder.png"></a>
+               <p>Bloc Chat is a single page application message app blah blah built with React.</p>
+               <h5>Tools Used</h5>
+               <ul>
+                 <li><i class="fab fa-html5"></i></li>
+                 <li><i class="fab fa-css3-alt"></i></li>
+                 <li><i class="fab fa-react"></i></li>
+                 <li><i class="fab fa-npm"></i></li>
+                 <li><i class="fab fa-git"></i></li>
+                 <li><i class="fab fa-github"></i></li>
+               </ul>
+             </div>
+             <div class="columnThree">
+               <h3>Built For Living</h3>
+               <a href="#"><img src="images/Built For Living Placeholder.png"></a>
+               <p>Real estate development website blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+               <h5>Tools Used</h5>
+               <ul>
+                 <li><i class="fab fa-html5"></i></li>
+                 <li><i class="fab fa-css3-alt"></i></li>
+                 <li><i class="fab fa-react"></i></li>
+                 <li><i class="fab fa-npm"></i></li>
+                 <li><i class="fab fa-git"></i></li>
+                 <li><i class="fab fa-github"></i></li>
+               </ul>
+             </div>
+           </div>
 
-          <!-- <div class="boxOne">
-            <div class="blocJams">
-              <img src="images/Bloc Jams Placeholder .png">
-            </div>
-          </div>
-
-          <div class="blocJamsExplanation">
-            <h2>Bloc Jams</h2>
-            <p>Bloc Jams is a single page application music player built with React. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Tools used for this project: </p>
-          </div>
-
-          <div class="blocChat">
-            <img src="images/Bloc Chat Placeholder.png">
-          </div>
-
-        <div class="blocChatExplanation">
-            <h2>Bloc Chat</h2>
-            <p>Bloc Chat is a single page application message app blah blah built with React. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Tools used for this project: </p>
-        </div> -->
-
-        <!-- <div class="boxOne"></div> -->
-
-      </div>
 
     </section>
 
@@ -114,9 +107,9 @@
     </section>
 
     <div class="iconBar">
-        <a href="https://github.com/colsoncrim"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/colson-crim-3b235692/"><i class="fa fa-linkedin"></i></a>
-        <a href="https://twitter.com/ColsonCrim"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/colsoncrim"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/colson-crim-3b235692/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/ColsonCrim"><i class="fab fa-twitter"></i></a>
     </div>
 
     <footer>
@@ -126,10 +119,6 @@
     </footer>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="scripts/script.js"></script>
-
-  
 
   </body>
 </html>
