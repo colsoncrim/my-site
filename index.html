@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts/script.js"></script>
     <title>Colson Crim | Web Developer</title>
@@ -20,17 +20,19 @@
           <!-- <li><a href="#pageOne"><img src="images/CC Logo.png"></a></li> -->
           <li><a href="#pageTwo">Projects</a></li>
           <li><a href="#pageThree">Skills</a></li>
-          <li><a href="#pageFour">Contact</a></li>
+          <li><a href="#pageFour">Education</a></li>
+          <li><a href="#pageFive">Contact</a></li>
         </ul>
       </nav>
     </div>
 
         <canvas></canvas>
+        
           <h1>Colson Crim</h1>
         <div id="containerOne">
         <div class="bio">
           <p>
-            <img class="headshot" id="photo" src="images/headshot.png" />
+            <img class="headshot" id="photo" src="images/LinkedIn Headshot.png" />
             <br />
             I'm a front end web developer based in Bellingham, Wa. I enjoy building websites, responsive web applications, and mobile apps using HTML, CSS, Javascript, React, and jQuery.
             <p/>
@@ -94,16 +96,62 @@
     </section>
 
     <section id="pageThree">
+
         <h1>Skills<h1>
 
         <div id="containerThree">
+          <div class="hoverPrompt">(Hover)</div>
+          <div class="grid">
 
+              <div class="box"><i class="fab fa-html5"></i></div>
+              <div class="box"><i class="fab fa-css3-alt"></i></div>
+              <div class="box"><i class="fab fa-js"></i></div>
+              <div class="box"><i class="fab fa-react"></i></div>
+              <div class="box"><i class="fab fa-git"></i></div>
+              <div class="box">SQL</div>
+              <div class="box"><i class="fab fa-github"></i></div>
+              <div class="box"><i class="fab fa-node"></i></div>
+              <div class="box"><i class="fab fa-npm"></i></div>
+
+          </div>
         </div>
     </section>
 
     <section id="pageFour">
+      <div id="containerFour">
+        <h1>Education</h1>
+
+
+      </div>
+    </section>
+
+    <section id="pageFive">
+      <div id="containerFive">
         <h1>Contact<h1>
 
+          <div class="column">
+          <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="fullname" placeholder="Your name...">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="emailaddress" placeholder="Your email...">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write message here..." style="height:140px"></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+        <div class="contactInfo">
+          <ul>
+            <li><i class="far fa-envelope"></i>colsoncrim1@gmail.com</li>
+            <li><i class="fas fa-phone"></i>(360) 927-2999</li>
+            <li><i class="fas fa-map-marker-alt"></i>Bellingham, WA</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <div class="iconBar">
