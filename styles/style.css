@@ -172,7 +172,8 @@ h1 {
   float: left;
   width: 33%;
   height: 730px;
-  background-color: #e1e7ef;
+  /* background-color: #e1e7ef; */
+  background-color: #444d59;
   border-radius: 10px 0px 0px 10px;
 }
 
@@ -180,7 +181,7 @@ h1 {
   float: left;
   width: 33%;
   height: 730px;
-  background-color: #e1e7ef;
+  background-color: #444d59;
   margin-left: 1px;
 }
 
@@ -188,7 +189,7 @@ h1 {
   float: left;
   width: 33%;
   height: 730px;
-  background-color: #e1e7ef;
+  background-color: #444d59;
   border-radius: 0px 10px 10px 0px;
   margin-left: 1px;
 }
@@ -201,7 +202,7 @@ h1 {
 .columnOne h3, .columnTwo h3, .columnThree h3 {
   font-size: 30px;
   font-family: 'Titillium Web', sans-serif;
-  color: #272C33;
+  color: white;
   padding: 10px;
 }
 
@@ -211,14 +212,14 @@ h1 {
   font-weight: lighter;
   width: 85%;
   margin: 0 auto;
-  color: #272C33;
+  color: white;
 }
 
 .columnOne h5, .columnTwo h5, .columnThree h5 {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
   font-size: 25px;
-  color: #272C33;
+  color: #08fdd8;
   line-height: 5;
 }
 
@@ -245,19 +246,23 @@ h1 {
 
 #pageThree {
   background-color: #272C33;
-  height: 1200px;
+  height: 1000px;
 }
 
 #containerThree {
-  width: 1200px;
+  width: 1400px;
   position:relative;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+}
+
+#skillsContainer {
+  float: right;
 }
 
 .grid {
   display: grid;
-  grid-template-rows: 250px 250px 250px;
-  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 200px 200px 200px;
   grid-gap: 20px;
   justify-content: center;
 }
@@ -269,7 +274,7 @@ h1 {
   align-items: center;
   justify-content: center;
   color: #AAA;
-  font-size: 180px;
+  font-size: 80px;
   transition: transform .5s;
 }
 
@@ -281,19 +286,24 @@ h1 {
 }
 
 .hoverPrompt {
-  font-size: 20px;
+  font-size: 30px;
   color: #555;
 }
+
+#blocContainer {
+  padding-top: 130px;
+}
+
+#blocContainer img {
+  width: 500px;
+}
+
 
 #pageFour {
   background-color: #272C33;
 }
 
-#pageFive {
-  background-color: #272C33;
-}
-
-#containerFive {
+#containerFour {
   border-radius: 5px;
   padding: 10px;
 }
@@ -332,10 +342,11 @@ input[type=submit]:hover {
   padding: 5px;
   margin-left: 140px;
   margin-top: -170px;
+  line-height: 1;
 }
 
 .contactInfo {
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 .contactInfo ul {
