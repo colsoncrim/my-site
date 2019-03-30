@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media_queries.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/navbar.js"></script>
     <title>Colson Crim | Web Developer</title>
 
   </head>
@@ -17,7 +20,6 @@
         <a href="#pageOne"><img src="images/CC Logo.png"></a>
       <nav>
         <ul>
-          <!-- <li><a href="#pageOne"><img src="images/CC Logo.png"></a></li> -->
           <li><a href="#pageTwo">Projects</a></li>
           <li><a href="#pageThree">Education & Skills</a></li>
           <li><a href="#pageFour">Contact</a></li>
@@ -27,14 +29,16 @@
 
         <canvas></canvas>
 
-          <h1>Colson Crim</h1>
+
         <div id="containerOne">
-        <div class="bio">
-          <p>
-            <img class="headshot" id="photo" src="images/LinkedIn Headshot.png" />
-            <br />
-            I'm a front end web developer based in Washington State. I enjoy building websites, responsive web applications, and mobile apps using HTML, CSS, Javascript, React, and jQuery.
-            <p/>
+          <h1>Colson Crim</h1>
+
+            <img class="headshot" id="photo" src="images/linkedin_2.png" />
+            <div class="bio">
+            <p>
+            I'm a frontend web developer based in Washington State. I enjoy building
+            websites and responsive web applications using HTML, CSS, and React.
+          </p>
         </div>
       </div>
 
@@ -48,9 +52,13 @@
 
            <div class="row">
              <div class="columnOne">
-               <h3>Bloc Jams</h3>
-               <a href="#"><img src="images/Bloc Jams Placeholder .png"></a>
-               <p>Bloc Jams is a single page application music player built with React</p>
+
+               <img src="images/soundbytes_logo_3 copy.png" class="soundbytesLogo">
+               <img src="images/bloc_jams_project_2.png">
+               <a href="#" class="button">View Project</a>
+               <a href="https://github.com/colsoncrim/bloc-jams-react/tree/master" target="_blank" class="button">View Code</a>
+               <p>Soundbytes is a single page application music player built with React.
+                  Lorem ipsum dolor sit amet.</p>
                <h5>Tools Used</h5>
                <ul>
                  <li><i class="fab fa-html5"></i></li>
@@ -62,9 +70,12 @@
                </ul>
              </div>
              <div class="columnTwo">
-               <h3>Bloc Chat</h3>
-               <a href="#"><img src="images/Bloc Chat Placeholder.png"></a>
-               <p>Bloc Chat is a single page application message app blah blah built with React.</p>
+               <img src="images/my_chat_logo_2.png" class="mychatLogo">
+               <img src="images/bloc_chat_project.png">
+               <a href="#" class="button">View Project</a>
+               <a href="https://github.com/colsoncrim/bloc-chat-react" target="_blank" class="button">View Code</a>
+               <p>My Chat is an instant messaging application that was built with React and
+                  Google's Firebase database.</p>
                <h5>Tools Used</h5>
                <ul>
                  <li><i class="fab fa-html5"></i></li>
@@ -76,14 +87,15 @@
                </ul>
              </div>
              <div class="columnThree">
-               <h3>Built For Living</h3>
-               <a href="#"><img src="images/Built For Living Placeholder.png"></a>
-               <p>Real estate development website blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+               <img src="images/CC Logo.png" class="ccLogo">
+               <img src="images/portfolio.png">
+               <a href="https://github.com/colsoncrim/my-site/tree/master" target="_blank" class="button">View Code</a>
+               <p>I built this portfolio website to display the skills I've learned on my journey
+                  to becoming a web developer.</p>
                <h5>Tools Used</h5>
                <ul>
                  <li><i class="fab fa-html5"></i></li>
                  <li><i class="fab fa-css3-alt"></i></li>
-                 <li><i class="fab fa-react"></i></li>
                  <li><i class="fab fa-npm"></i></li>
                  <li><i class="fab fa-git"></i></li>
                  <li><i class="fab fa-github"></i></li>
@@ -96,30 +108,71 @@
 
     <section id="pageThree">
 
-        <h1>Education & Skills<h1>
 
         <div id="containerThree">
 
-          <div id="skillsContainer">
-            <div class="hoverPrompt">(Hover)</div>
-              <div class="grid">
-
-                <div class="box"><i class="fab fa-html5"></i></div>
-                <div class="box"><i class="fab fa-css3-alt"></i></div>
-                <div class="box"><i class="fab fa-js"></i></div>
-                <div class="box"><i class="fab fa-react"></i></div>
-                <div class="box"><i class="fab fa-git"></i></div>
-                <div class="box">SQL</div>
-                <div class="box"><i class="fab fa-github"></i></div>
-                <div class="box"><i class="fab fa-node"></i></div>
-                <div class="box"><i class="fab fa-npm"></i></div>
-
-              </div>
+            <div id="blocHeader">
+              <img src="images/Bloc Logo.jpg">
+              <h3>Bloc: Web Development Training</h3>
+              <p>Structured, online training program in software development and design
+                 for career minded individuals.</p>
             </div>
 
-            <div id="blocContainer">
-              <img src="images/bloc_window.jpg">
-            </div>
+            <div id="moduleList">
+
+                  <div class="module">
+                    <i class="fas fa-code"></i>
+                    <h6>Frontend & Programming Fundamentals</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                  </div>
+
+                  <div class="module">
+                    <i class="fab fa-react"></i>
+                    <h6>Frontend Frameworks</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                  </div>
+
+                  <div class="module">
+                    <i class="fas fa-sitemap"></i>
+                    <h6>Computer Science Fundamentals</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                  </div>
+
+                  <div class="module">
+                    <i class="fab fa-node-js"></i>
+                    <h6>Server Side w/ Node.js</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                  </div>
+                </div>
+
+        <div id="arrowContainer">
+          <div class="arrow-down">
+            <a href="#top-quote"><svg version="1.1" width="49px" height="25px"><polygon fill-rule="evenodd" clip-rule="evenodd" fill="#000" points="49.01,0.706 48.294,-0.01 24.5,23.784 0.706,-0.01 -0.01,0.706 24.294,25.01 24.5,24.804 24.706,25.01"/></svg></a>
+          </div>
+
+          <div class="skillsScroll">
+            <h4>Skills I learned at Bloc</h4>
+          </div>
+        </div>
+
+
+          <!-- <div id="skillsContainer"> -->
+              <!-- <div class="hoverPrompt">(Hover)</div> -->
+                <div class="grid">
+
+                  <div class="box"><i class="fab fa-html5"></i></div>
+                  <div class="box"><i class="fab fa-css3-alt"></i></div>
+                  <div class="box"><i class="fab fa-js"></i></div>
+                  <div class="box"><i class="fab fa-react"></i></div>
+                  <div class="box"><i class="fab fa-git"></i></div>
+                  <div class="box">SQL</div>
+                  <div class="box"><i class="fab fa-github"></i></div>
+                  <div class="box"><i class="fab fa-node"></i></div>
+                  <div class="box"><i class="fab fa-npm"></i></div>
+
+                </div>
+          <!-- </div> -->
+
           </div>
     </section>
 
@@ -144,20 +197,19 @@
         </div>
 
         <div class="contactInfo">
-          <ul>
-            <li><i class="far fa-envelope"></i>colsoncrim1@gmail.com</li>
-            <li><i class="fas fa-phone"></i>(360) 927-2999</li>
-            <li><i class="fas fa-map-marker-alt"></i>Bellingham, WA</li>
-          </ul>
-        </div>
+          <h6>Let's Connect</h6>
+          <a href="mailto:colsoncrim1@gmail.com"><i class="far fa-envelope"></i></a>
+          <a href="https://github.com/colsoncrim" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/colson-crim-3b235692/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/ColsonCrim" target="_blank"><i class="fab fa-twitter"></i></a>
+          <!-- <a><i class="far fa-envelope"></i></a>
+          <a href="https://github.com/colsoncrim"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/colson-crim-3b235692/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/ColsonCrim"><i class="fab fa-twitter"></i></a>
+        </div> -->
       </div>
     </section>
 
-    <div class="iconBar">
-        <a href="https://github.com/colsoncrim"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/colson-crim-3b235692/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/ColsonCrim"><i class="fab fa-twitter"></i></a>
-    </div>
 
     <footer>
       <div id="siteFooter">
