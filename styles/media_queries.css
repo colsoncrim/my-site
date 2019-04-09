@@ -25,6 +25,11 @@
     height: auto;
   }
 
+  #containerOne p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   #pageThree {
     height: auto;
   }
@@ -56,11 +61,21 @@
     font-size: 40px;
   }
 
+  .contactInfo {
+
+  }
+
 }
 
 /* max-width 750px */
 
 @media (max-width: 750px) {
+
+  #containerOne p {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
   #pageTwo {
     height: auto;
     padding-bottom: 50px;
@@ -108,6 +123,27 @@
     font-size: 80px;
   }
 
+  #containerFour {
+    display: flex;
+  }
+
+
+  .column {
+    width: 100%;
+padding-left:0px;
+  }
+
+
+
+.contactInfo{
+  width:100%;
+  float:inherit;
+  width: 400px;
+}
+
+input{
+  margin-bottom:10px;
+}
 
 }
 

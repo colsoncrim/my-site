@@ -134,6 +134,10 @@ h1 {
   color: #08fdd8;
 }
 
+#containerOne h1 {
+  padding-top: 30px;
+}
+
 
 .headshot {
   width: 250px;
@@ -427,7 +431,7 @@ h1 {
 }
 
 #arrowContainer {
-  margin-top: 450px;
+  margin-top: 250px;
 }
 
 .skillsScroll {
@@ -509,7 +513,7 @@ h1 {
 
 #pageFour {
   background-color: #272C33;
-  height: auto;
+  height: 750px;
 }
 
 #pageFour h1 {
@@ -517,14 +521,18 @@ h1 {
 }
 
 #containerFour {
-  width: 100%;
+  max-width:1200px;
   border-radius: 5px;
-  padding: 10px;
-  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  /* display: flex; */
 }
+
 
 form {
   padding-top: 80px;
+  margin:auto;
+  width:80%;
 }
 
 label {
@@ -533,14 +541,13 @@ label {
   font-family: 'Titillium Web', sans-serif;
 }
 
+
 input[type=text], textarea {
-  width: 100%;
+
+width:100%;
   padding: 12px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  resize: vertical;
 }
 
 input[type=submit] {
@@ -555,26 +562,32 @@ input[type=submit]:hover {
   background-color: #08ddbd;
 }
 
+#email {
+  margin-bottom: 35px;
+}
+
 .column {
   float: left;
-  width: 40%;
-  padding: 5px;
-  margin-left: 140px;
+  width: 50%;
+  padding-left: 20px;
   margin-top: -170px;
-  line-height: 1;
+
 }
 
 .contactInfo {
-  padding-top: 80px;
+  margin-top: 30px;
+  margin: 0 auto;
   color: white;
   list-style: none;
   display: inline-block;
+  width:45%;
 }
 
-
-.contactInfo a:hover {
-  color: black;
+.contactInfo p {
+  font-size: 25px;
+  color: #b2b2b2;
 }
+
 
 .contactInfo ul {
   list-style: none;
@@ -590,6 +603,10 @@ input[type=submit]:hover {
   padding: 20px;
   color: #08fdd8;
   font-size: 30px;
+}
+
+.contactInfo i:hover {
+  color: #05c1a5;
 }
 
 footer #siteFooter {
