@@ -1,7 +1,4 @@
 
-@media (max-width:550px) {
-
-}
 
 @media only screen and (max-width:600px) {
   section {
@@ -9,7 +6,7 @@
   }
 }
 
-
+/* MAX WIDTH 600PX */
 @media (max-width: 600px) {
   nav {
     font-size: 13px;
@@ -58,13 +55,9 @@
     font-size: 40px;
   }
 
-  .contactInfo {
-
-  }
-
 }
 
-/* max-width 750px */
+/* MAX WIDTH 750PX */
 
 @media (max-width: 750px) {
 
@@ -124,26 +117,24 @@
     display: flex;
   }
 
-
   .column {
     width: 100%;
-padding-left:0px;
+    padding-left:0px;
   }
 
+  .contactInfo{
+    width:100%;
+    float:inherit;
+    width: 400px;
+  }
 
-
-.contactInfo{
-  width:100%;
-  float:inherit;
-  width: 400px;
-}
-
-input{
-  margin-bottom:10px;
-}
+  input{
+    margin-bottom:10px;
+  }
 
 }
 
+/* MAX WIDTH 950PX */
 @media (max-width: 950px) {
   .module {
     width: 100%;
@@ -168,7 +159,6 @@ input{
   #containerFour {
     flex-flow: column wrap;
   }
-
 
 }
 
