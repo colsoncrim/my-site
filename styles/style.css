@@ -26,6 +26,10 @@ canvas{
   background-color: #272C33;
 }
 
+.icon {
+  display: none;
+}
+
 .navigation img {
   width: 110px;
   position: fixed;
@@ -75,15 +79,17 @@ nav a:hover {
  }
 
 .navigation ul {
+<<<<<<< HEAD
   width: fit-content;
+=======
+>>>>>>> final-updates
   list-style: none;
   float: right;
-  display: inline;
 }
 
 .navigation ul li {
-  float: left;
   margin-right: 30px;
+  display:inline;
 }
 
 .navigation ul li a {
@@ -373,6 +379,7 @@ h1 {
   left:0;
   right:0;
 }
+
 .arrow-down a svg {
   position:absolute;
   z-index:1;
@@ -394,6 +401,7 @@ h1 {
     50% {opacity:1;bottom:120px}
     100% {opacity:0;bottom:90px}
 }
+
 @-webkit-keyframes arrow {
     0% {opacity:0;bottom:150px}
     50% {opacity:1;bottom:120px}

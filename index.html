@@ -9,20 +9,23 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts/script.js"></script>
-    <script src="scripts/navbar.js"></script>
+    <script src="scripts/mobile_menu.js"></script>
     <title>Colson Crim | Web Developer</title>
   </head>
   <body>
 
 <!-- PAGE ONE -->
     <section id="pageOne">
-      <div class="navigation">
+      <div class="navigation" id="myNavigation">
         <a href="#pageOne"><img src="images/CC Logo.png"></a>
       <nav>
         <ul>
-          <li><a href="#pageTwo">Projects</a></li>
-          <li><a href="#pageThree">Education & Skills</a></li>
-          <li><a href="#pageFour">Contact</a></li>
+          <li><a href="#pageTwo" class="nav" >Projects</a></li>
+          <li><a href="#pageThree" class="nav">Education & Skills</a></li>
+          <li><a href="#pageFour" class="nav">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </ul>
       </nav>
     </div>
