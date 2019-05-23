@@ -208,20 +208,21 @@ h1 {
   backface-visibility: hidden;
 }
 
-.columnOne .soundbytesLogo {
+.columnOne .bloccitLogo {
   width: 200px;
+  padding-bottom: 53px;
+  padding-top: 83px;
 }
 
-.columnTwo .mychatLogo {
+.columnTwo .soundbytesLogo {
   width: 200px;
-  padding-bottom: 30px;
-  padding-top: 45px;
+
 }
 
-.columnThree .ccLogo {
-  width: 130px;
-  padding-bottom: 50px;
-  padding-top: 63px;
+.columnThree .mychatLogo {
+  width: 200px;
+  padding-bottom: 22px;
+  padding-top: 54px;
 }
 
 .button {
